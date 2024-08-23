@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(226, 208, 231);
+}
+
+h1{ 
+    text-align: center;
+    font-family: "Prata", serif;
+} 
+
+h3{
+  text-align: center;
+  font-family: "Prata", serif;
+     
+}
+
+.text_area{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#texto{   
+    width: 80%;
+    height: 50px;
+    margin: 0 auto;
+
+    
+}
+
+#button, #refresh, .frecuencia {
+    width: 30%;
+    height: 30px;
+    margin: 0 auto;
+    border-radius: 15px;
+    cursor: pointer;
+    
+
+}
+
+@media(max-width: 800px){
+    .frecuencia{
+        width: 40%;
+        height: 40px;
+        
+
+}
+}
+
+#button:hover{
+    background-color: rgb(226, 136, 196);
+    color:black;
+    font-weight: bold;
+
+}
+
+#refresh:hover{
+    background-color: rgb(105, 173, 194);
+    color:black;
+    font-weight: bold;
+
+}
+
+.frecuencia:hover{
+    background-color: brown;
+    color:white;
+    font-weight: bold;
+}
+
+.invest{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10px;
+    gap: 15px;
+
+   
+}
+
+p{
+    width:50%;
+    margin: 0 auto;
+}
+
+
+
+#showing_freq{
+    text-align: center;
+    align-content: center;
+
+}
+
+ul{
+    
+    padding-left: 0;
+    
+
+}
