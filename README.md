@@ -1,3 +1,5 @@
+Link: https://blangis.github.io/Technical-test/
+
 En este repositorio se encuentra una página web, la cual se creó usando html, css y javascript para hacer un cálculo de la frecuencia de palabras en un texto.
 El usuario puede agregar un texto, donde al fijarlo (hacer click al botón) se podrá reflejar abajo del área de texto para visualizarlo mejor, cuando el usuario hace click se activa el método addEventListener que hace visible otro botón, mediante el cuál nuevamente al hacer click activa otro escuchador de eventos que desencadena otros métodos que quitan algunos signos de puntuación, caracteres especiales, etc. para limpiar el texto, posteriormente pasa todo a minúsculas y con split() hace un array separando cada elemento por los espacios. 
 Se inicializó un objeto para poder guardar ahí la frecuencia de cada palabra. Para poder recorrer el array se aplicó un bucle for, el cual recorre cada elemento del array y verifica si previamente la palabra ya fue definida o no; si no ha sido definida se le asigna el número 1, mientras que sí ya se encontraba se le suma una unidad a la cuenta de ese valor. 
